@@ -1,6 +1,6 @@
 
 
-const fetchApi = (auth) => {
+const fetchApi = (auth: any) => {
     try {
         fetch('http://localhost:3000/user/login', {
             method: 'POST',

@@ -32,7 +32,7 @@ const renderLoginPage = () => {
                   `;
 }
 
-const render = (target, content) => {
+const render = (target: any, content: any) => {
   target.innerHTML = content();
 }
 
